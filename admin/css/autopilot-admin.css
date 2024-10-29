@@ -1,0 +1,60 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+
+.toplevel_page_autopilot_settings ul, 
+.toplevel_page_autopilot_settings label, 
+.toplevel_page_autopilot_settings p,  
+.toplevel_page_autopilot_settings h3,  
+.toplevel_page_autopilot_settings h3 { 
+    color: #171717; letter-spacing: 0
+}
+
+/* might need to revisit this */
+.toplevel_page_autopilot_settings #wpfooter { position: relative; }
+
+
+.toplevel_page_autopilot_settings ul { list-style-type: disc; list-style-position: inside; font-size: 15px; font-weight: 500; line-height: 24px; }
+
+.toplevel_page_autopilot_settings label { font-size: 15px; font-weight: 500; } 
+
+.toplevel_page_autopilot_settings p { font-size: 16px; font-weight: normal; line-height: 24px; }
+
+.toplevel_page_autopilot_settings h2 { font-size: 22px; font-weight: bold; }
+
+.toplevel_page_autopilot_settings h3 { font-size: 16px; font-weight: bold; }
+
+.toplevel_page_autopilot_settings input[type=checkbox] { margin: 0 .25rem 0 0;}
+
+/* use sliding doors tecnique to replace title with logo */
+.toplevel_page_autopilot_settings .dashboard-widgets-wrap > h2 { background:url(../assets/ap-logo.png) 0 0 no-repeat; display:block; height:24px; text-indent:-99999em; width:183px; overflow: hidden; margin-left: 38px; }
+
+.toplevel_page_autopilot_settings .section { box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.1); border-radius: 16px; margin: 30px 38px; display: flex; background-color: #ffffff; }
+
+.toplevel_page_autopilot_settings .section__col {padding: 22px 40px; flex: 1 1 0; width: 0;}
+
+.toplevel_page_autopilot_settings .section--consent .section__col:nth-of-type(2) {background: #ffffff url(../assets/tracking-illustration.png) right center no-repeat; background-size: contain; max-width: 518px; border-radius: 16px; padding-left: 0; }
+
+.toplevel_page_autopilot_settings .section--ghost {background: unset;  box-shadow: unset; }
+
+.toplevel_page_autopilot_settings .form { display: flex; flex-direction: column; }
+
+.toplevel_page_autopilot_settings .form__input { display: flex; margin-bottom: 16px; align-items: center;}
+
+.toplevel_page_autopilot_settings .input--row > input {margin-right: 4px;}
+
+.toplevel_page_autopilot_settings #tracking_key { margin-right: 4px }
+
+.toplevel_page_autopilot_settings .section--consent .button-primary { width: 191px; height: 41px; margin-top: 12px; }
+
+.toplevel_page_autopilot_settings .dashboard-widgets-wrap .button--launch-app {position: absolute; top: 18px; right: 58px; padding: 5px 30px; }
+
+.toplevel_page_autopilot_settings .connect { display: flex; margin-bottom: 24px; }
+
+.toplevel_page_autopilot_settings .connect__content { margin-left: 24px; }
+
+.toplevel_page_autopilot_settings .connect__image { display: block; width: 56px; height: 56px; content: ""; background: url(../assets/logo-sqr.svg) center center no-repeat; box-shadow: 4px 8px 17px 0px rgba(0, 0, 0, 0.18); border-radius: 16.8px; padding: 20px; background-size: 56px 56px;}
+
+.toplevel_page_autopilot_settings .hidden { display: none;}
